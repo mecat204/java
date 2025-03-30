@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+/*导航栏*/
+body,#wrap,#right,#left,#nav,ul,li{ 
+	margin: 0px; 
+	padding: 0px;
+}
+#nav{
+	width:100%;
+	min-height: 86px;
+	margin:0 auto;
+	text-align: center;
+	color: blue;
+	border-bottom: 2px solid #ccc;
+}
+#wrap{
+	margin-left: 64px;
+}
+#wrap > ul{
+ 	display: inline;
+ 	list-style: none;
+}
+#wrap > ul > li{
+	float: left;
+	margin:0px 2px;
+	width: 200px;
+	height: 30px;
+	color:blue;
+}
+#wrap > ul > li:hover{
+	font-weight: bolder;
+}
+
+#content{
+	width:100%;
+	position: relative;
+}
+
+#left{ 
+	width:30%;
+	height: 600px;
+	position: absolute;
+}
+#right{
+	width:69%;
+	min-height:600px;
+	border-left:2px solid #ccc;
+	position: absolute;
+	left:410px;
+	top:0px;
+}
+.left_ul{
+	width:100%;
+	height: auto;
+	list-style: none;
+	position: fixed;
+	left:10px;
+	top:100px;
+}
+.right_ul{
+	width:100%;
+	min-height:600px;
+	list-style: none;
+	position: absolute;
+	top:10px;	
+}
